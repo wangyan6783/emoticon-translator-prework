@@ -27,6 +27,11 @@ end
 def get_english_meaning(path, emoticon)
   emoticons = load_library(path)
   translator = emoticons["get_meaning"]
+  if translator[emoticon]
+    translator[emoticon]
+  else
+    "Sorry, that emoticon was not found"
+  end
 end
 
 describe "#get_english_meaning" do
