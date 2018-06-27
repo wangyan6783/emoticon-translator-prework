@@ -5,7 +5,7 @@ def load_library(path)
   hash = {}
   hash["get_emoticon"] = {}
   hash["get_meaning"] = {}
-  puts emoticons
+  emoticons
 end
 
 def get_japanese_emoticon
@@ -16,4 +16,4 @@ def get_english_meaning
   # code goes here
 end
 
-load_library("./lib/emoticons.yml")
+puts load_library("./lib/emoticons.yml")
