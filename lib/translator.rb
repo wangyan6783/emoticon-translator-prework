@@ -6,8 +6,9 @@ def load_library(path)
   hash["get_emoticon"] = {}
   hash["get_meaning"] = {}
   emoticons.each { |meaning, signs|
-    eng_signs = signs[1]
+    eng_signs = signs[0]
     jap_signs = signs[1]
+    hash["get_meaning"][jap_signs] = 
   }
 end
 
