@@ -9,6 +9,7 @@ def load_library(path)
     eng_signs = signs[0]
     jap_signs = signs[1]
     hash["get_meaning"][jap_signs] = meaning
+    hash["get_emoticon"][eng_signs] = jap_signs
   }
 end
 
