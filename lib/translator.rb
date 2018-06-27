@@ -1,7 +1,7 @@
 require "yaml"
 
 def load_library(path)
-  emotions = YAML.load_file(path)
+  emoticons = YAML.load_file(path)
   hash = {}
   hash["get_emoticon"] = {}
   hash["get_meaning"] = {}
