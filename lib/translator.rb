@@ -12,4 +12,4 @@ def get_english_meaning
   # code goes here
 end
 
-load_library(./lib/emotions.yml)
+load_library("./lib/emotions.yml")
